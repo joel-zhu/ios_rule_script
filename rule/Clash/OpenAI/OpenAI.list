@@ -2,10 +2,10 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-11-21 16:18:28
-DOMAIN,coze.com
-DOMAIN,perplexity.ai
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,chat.groq.com
-DOMAIN,groq.com
+DOMAIN-SUFFIX,groq.com
 DOMAIN,api.groq.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
