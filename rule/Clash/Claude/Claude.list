@@ -12,3 +12,6 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,api2.cursor.sh
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,api2.cursor.sh
+DOMAIN,assets.grok.com
+DOMAIN-SUFFIX,assets.grok.com
+DOMAIN-SUFFIX,grok.com
