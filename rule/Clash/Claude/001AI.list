@@ -1,9 +1,9 @@
 # NAME: Claude
 # AUTHOR: Joel
-#  address：https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
+#  repo: https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
 # UPDATED: 2025-06-01 16:18:28
 
-# openAI规则
+
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -28,12 +28,12 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,platform.openai.com/account/api-keys
 
-# Gemini规则
+
 DOMAIN-KEYWORD,gemini
 DOMAIN,gemini.google.com/app
 DOMAIN,aistudio.google.com
 
-# Grok规则
+
 DOMAIN,chat.groq.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN,api.groq.com
@@ -41,16 +41,16 @@ DOMAIN,assets.grok.com
 DOMAIN-SUFFIX,assets.grok.com
 DOMAIN-SUFFIX,grok.com
 
-# perplexity规则
+
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# cursor规则
+
 DOMAIN-SUFFIX,api2.cursor.sh
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,api2.cursor.sh
 
-# Claude规则
+
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -59,12 +59,12 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN,console.anthropic.com
 
-# ai生图
+
 DOMAIN-KEYWORD,dreamina.capcut
 DOMAIN-KEYWORD,sora.chatgpt
 DOMAIN-KEYWORD,ideogram.ai
 
-# ai生视频
+
 DOMAIN-KEYWORD,runwayml.com
 DOMAIN-KEYWORD,pika.art/home
 DOMAIN-KEYWORD,lumalabs.ai
@@ -72,7 +72,7 @@ DOMAIN-KEYWORD,vidu.studio
 DOMAIN-KEYWORD,hailuoai.video
 DOMAIN,app.klingai.com/global
 
-# 其他常见的
+
 DOMAIN-KEYWORD,suno.com
 DOMAIN-KEYWORD,suno.ai
 DOMAIN-KEYWORD,thinkany.ai
