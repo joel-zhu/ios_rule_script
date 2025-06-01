@@ -73,7 +73,12 @@ DOMAIN-KEYWORD,hailuoai.video
 DOMAIN,app.klingai.com/global
 
 # 其他常见的
-DOMAIN-SUFFIX,poe.com
+DOMAIN-KEYWORD,suno.com
+DOMAIN-KEYWORD,suno.ai
+DOMAIN-KEYWORD,thinkany.ai
+DOMAIN-KEYWORD,genspark.ai
+DOMAIN-KEYWORD,huggingface
+DOMAIN-KEYWORD,poe.com
 DOMAIN,psc2.cf2.poecdn.net
 DOMAIN-KEYWORD,openrouter
 DOMAIN,cdn.usefathom.com
