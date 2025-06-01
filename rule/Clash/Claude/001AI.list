@@ -1,0 +1,17 @@
+# NAME: Claude
+# AUTHOR: Joel
+https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/Claude.list
+# UPDATED: 2025-06-01 16:18:28
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 7
+# TOTAL: 10
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,api2.cursor.sh
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN,api2.cursor.sh
+DOMAIN,assets.grok.com
+DOMAIN-SUFFIX,assets.grok.com
+DOMAIN-SUFFIX,grok.com
