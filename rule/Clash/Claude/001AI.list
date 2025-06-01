@@ -1,17 +1,92 @@
 # NAME: Claude
 # AUTHOR: Joel
-https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/Claude.list
+https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
 # UPDATED: 2025-06-01 16:18:28
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 7
-# TOTAL: 10
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,api2.cursor.sh
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN,api2.cursor.sh
+
+# openAI规则
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,platform.openai.com/account/api-keys
+
+# Gemini规则
+DOMAIN-KEYWORD,gemini
+DOMAIN,gemini.google.com/app
+DOMAIN,aistudio.google.com
+
+# Grok规则
+DOMAIN,chat.groq.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN,api.groq.com
 DOMAIN,assets.grok.com
 DOMAIN-SUFFIX,assets.grok.com
 DOMAIN-SUFFIX,grok.com
+
+# perplexity规则
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# cursor规则
+DOMAIN-SUFFIX,api2.cursor.sh
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN,api2.cursor.sh
+
+# Claude规则
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,www.anthropic.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN,console.anthropic.com
+
+# ai生图
+DOMAIN-KEYWORD,dreamina.capcut
+DOMAIN-KEYWORD,sora.chatgpt
+DOMAIN-KEYWORD,ideogram.ai
+
+# ai生视频
+DOMAIN-KEYWORD,runwayml.com
+DOMAIN-KEYWORD,pika.art/home
+DOMAIN-KEYWORD,lumalabs.ai
+DOMAIN-KEYWORD,vidu.studio
+DOMAIN-KEYWORD,hailuoai.video
+DOMAIN,app.klingai.com/global
+DOMAIN-KEYWORD,
+
+# 其他常见的
+DOMAIN,poe.com
+DOMAIN,chat.z.ai
+DOMAIN-KEYWORD,openrouter
+DOMAIN,cdn.usefathom.com
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN,static.cloudflareinsights.com
