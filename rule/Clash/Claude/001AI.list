@@ -41,6 +41,7 @@ DOMAIN,assets.grok.com
 DOMAIN-SUFFIX,assets.grok.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN,grok.com
+DOMAIN-KEYWORD,x.ai
 
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
