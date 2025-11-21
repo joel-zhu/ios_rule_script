@@ -3,7 +3,7 @@
 #  repo: https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
 # UPDATED: 2025-11-21 16:18:28
 
-
+# ChatGPT
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -27,8 +27,9 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,platform.openai.com/account/api-keys
+DOMAIN-KEYWORD,sora.chatgpt
 
-
+# gemini相关
 DOMAIN-KEYWORD,gemini
 DOMAIN,gemini.google.com/app
 DOMAIN,aistudio.google.com
@@ -46,7 +47,10 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN,antigravity-unleash.goog
+DOMAIN,ai.studio
+DOMAIN,aistudiocdn.com
 
+# Grok
 DOMAIN,chat.groq.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN,api.groq.com
@@ -57,15 +61,16 @@ DOMAIN,grok.com
 DOMAIN-KEYWORD,x.ai
 DOMAIN-KEYWORD,grok.com
 
+# perlexyty
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-
+# cursor
 DOMAIN-SUFFIX,api2.cursor.sh
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,api2.cursor.sh
 
-
+# claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -74,12 +79,9 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN,console.anthropic.com
 
-
+# 其他
 DOMAIN-KEYWORD,dreamina.capcut
-DOMAIN-KEYWORD,sora.chatgpt
 DOMAIN-KEYWORD,ideogram.ai
-
-
 DOMAIN-KEYWORD,runwayml.com
 DOMAIN-KEYWORD,pika.art/home
 DOMAIN-KEYWORD,lumalabs.ai
@@ -87,7 +89,7 @@ DOMAIN-KEYWORD,vidu.studio
 DOMAIN-KEYWORD,hailuoai.video
 DOMAIN,app.klingai.com/global
 
-
+# suno
 DOMAIN-KEYWORD,suno.com
 DOMAIN-KEYWORD,suno.ai
 DOMAIN-KEYWORD,thinkany.ai
