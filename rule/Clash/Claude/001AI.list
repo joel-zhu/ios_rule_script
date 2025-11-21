@@ -1,7 +1,7 @@
 # NAME: Claude
 # AUTHOR: Joel
 #  repo: https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
-# UPDATED: 2025-06-01 16:18:28
+# UPDATED: 2025-11-21 16:18:28
 
 
 DOMAIN-KEYWORD,openai
@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-
+DOMAIN,antigravity-unleash.goog
 
 DOMAIN,chat.groq.com
 DOMAIN-SUFFIX,groq.com
