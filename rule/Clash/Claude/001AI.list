@@ -43,12 +43,18 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN,antigravity-unleash.goog
 DOMAIN,ai.studio
 DOMAIN,aistudiocdn.com
+
+# NotebookLM
+DOMAIN-KEYWORD,notebooklm.google
 
 # Grok
 DOMAIN,chat.groq.com
