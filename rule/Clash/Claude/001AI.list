@@ -1,7 +1,7 @@
 # NAME: Claude
 # AUTHOR: Joel
 #  repo: https://github.com/joel-zhu/ios_rule_script/edit/joel-zhu-patch-1/rule/Clash/Claude/001AI.list
-# UPDATED: 2025-11-21 16:18:28
+# UPDATED: 2026-1-1 16:18:28
 
 # ChatGPT
 DOMAIN-KEYWORD,openai
@@ -30,7 +30,6 @@ DOMAIN,platform.openai.com/account/api-keys
 DOMAIN-KEYWORD,sora.chatgpt
 
 # gemini相关
-DOMAIN-KEYWORD,gemini
 DOMAIN,gemini.google.com/app
 DOMAIN,aistudio.google.com
 DOMAIN,ai.google.dev
@@ -46,6 +45,9 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,gemini.google.com
+DOMAIN-KEYWORD,labs.google
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
